@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <string.h>
 #include "operator.h"
 #include "fichier.h"
 #include "liste.h"
