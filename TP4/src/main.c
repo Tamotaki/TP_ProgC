@@ -85,3 +85,18 @@ void exercice_42(void) {
         }
     }
 }
+void exercice_47(void) {
+    ListeCouleurs ma_liste;
+    init_liste(&ma_liste);
+
+    Couleur c1 = {0xFF, 0x00, 0x00, 0xFF};
+    Couleur c2 = {0x00, 0xFF, 0x00, 0xFF};
+    Couleur c3 = {0x00, 0x00, 0xFF, 0xFF};
+
+    insertion(&c1, &ma_liste);
+    insertion(&c2, &ma_liste);
+    insertion(&c3, &ma_liste);
+
+    printf("Liste des couleurs :\n");
+    parcours(&ma_liste);
+}
